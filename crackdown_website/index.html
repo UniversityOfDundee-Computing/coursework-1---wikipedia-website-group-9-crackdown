@@ -21,21 +21,21 @@
           <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav">
               <li class="nav-item mx-4">
-                <a class="nav-link active" href="#">HOME
+                <a class="nav-link active" href="./index.html">HOME
                   <span class="visually-hidden">(current)</span>
                 </a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#">GAMEPLAY</a>
+                <a class="nav-link" href="./html/gameplay.html">GAMEPLAY</a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#">PLOT</a>
+                <a class="nav-link" href="./html/plot.html">PLOT</a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#">ABOUT</a>
+                <a class="nav-link" href="./html/about.html">ABOUT</a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="./html/contact.html">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -44,52 +44,57 @@
       <div class="heroContainer">
         <img src="./img/logo.png" />
         <div class="buttons mt-4">
-          <button>
-            ABOUT
-          </button>
-          <button>
-            TRAILER
-          </button>
+          <a href="#mainContent">
+            <button>
+              ABOUT
+            </button>
+          </a>
+          <a href="#trailer">
+            <button>
+              TRAILER
+            </button>
+          </a>
         </div>
       </div>
     </div>
-    <main>
+    <main id="mainContent">
       <h1 class="mb-4">ABOUT CRACKDOWN</h1>
       <hr />
         <div class="cardX mt-5">
             <img src="./img/screenshotOne.jpeg" />
             <div>
-              <h1>Lorem</h1>
+              <h1>The City</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin erat purus, blandit eu mattis vel, rhoncus venenatis nibh. Aenean non justo sit amet tellus fringilla interdum. Maecenas sodales suscipit congue. Etiam convallis, augue vel ultrices sollicitudin, ex metus sodales velit, a vehicula ligula ipsum vitae odio. Ut volutpat odio et pretium interdum.
+                The game takes place in Pacific City, a dystopian metropolis that is suffering from an increase in crime rate. Criminal syndicates - namely Los Muertos, The Volk, and The Shai-Gen Corporation - have taken control of its three main territories, and they are armed with military-grade weapons that make it difficult for law enforcement to combat them. A secret organization known as the Agency took it upon themselves to eliminate the city's organized crime using their wide resources and genetically modified human beings called Agents.
               </p>
             </div>
         </div>
       <hr />
         <div class="cardY mt-5">
           <div>
-            <h1>Lorem</h1>
+            <h1>The Agency</h1>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin erat purus, blandit eu mattis vel, rhoncus venenatis nibh. Aenean non justo sit amet tellus fringilla interdum. Maecenas sodales suscipit congue. Etiam convallis, augue vel ultrices sollicitudin, ex metus sodales velit, a vehicula ligula ipsum vitae odio. Ut volutpat odio et pretium interdum.
+              An organization that operated cybernetic soldiers, and is located in the central part of the city. One of these cyborgs, the "Agent", is controlled by the player; he works for The Agency, and is tasked with systematically bringing down all three organized gangs, while keeping both the populace and Peacekeepers safe.
             </p>
           </div>
-            <img src="./img/screenshotOne.jpeg" class="" />
+            <img src="./img/screenshotTwo.jpeg" class="" />
         </div>
       <hr />
         <div class="cardX mt-5">
-            <img src="./img/screenshotOne.jpeg" class="" />
+            <img src="./img/screenshotThree.webp" class="" />
             <div>
-              <h1>Lorem</h1>
+              <h1>Roam Free</h1>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin erat purus, blandit eu mattis vel, rhoncus venenatis nibh. Aenean non justo sit amet tellus fringilla interdum. Maecenas sodales suscipit congue. Etiam convallis, augue vel ultrices sollicitudin, ex metus sodales velit, a vehicula ligula ipsum vitae odio. Ut volutpat odio et pretium interdum.
+                Throughout the game, the player roams Pacific City, systematically eliminating the leaders of the three gangs. Upon defeating the gangs' Kingpins and generals, the Agent must put down a final riot by the remaining gang members in the area which after completion will cause that city to be almost crime free.
               </p>
             </div>
         </div>
         <hr />
-        <h1 class="mt-4">WATCH THE TRAILER </h1>
+        <h1 id="trailer" class="mt-4">WATCH THE TRAILER </h1>
         <div class="mt-4">
           <iframe width="1150" height="500" src="https://www.youtube.com/embed/zST2Gb1ciCE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <hr class="mt-5" />
     </main>
     <footer class="mx-auto text-center">
       <img src="./img/logo.png" class="mt-2" />
