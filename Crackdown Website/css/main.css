@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+
+p {
+    color: white;
+}
+
+
+.cardX, .cardY {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: justify;
+    width: 1150px;
+}
+
+.cardX img {
+    height: 250px;
+    margin-right: 20px;
+}
+
+.cardY img {
+    height: 250px;
+    margin-left: 20px;
+}
+
+main {
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 1150px;
+}
+
+* {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.hero {
+    height: 650px;
+    background-image: url('../img/homeBanner.jpeg');
+    background-position: 50% 15%;
+}
+
+.heroContainer {
+    padding-top: 150px;
+    width: 500px;
+    margin: auto;
+    display: block;
+}
+
+.heroContainer img {
+    margin: auto;
+    display: block;
+    height: 270px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.screenshotOne img {
+    object-fit: cover;
+}
+
+button {
+    background-color: transparent; /* Green */
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+footer img {
+    height: 100px;
+}
