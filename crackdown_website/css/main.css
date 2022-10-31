@@ -9,7 +9,7 @@ p {
     display: grid;
     grid-auto-flow: column;
     text-align: justify;
-    width: 1150px;
+    max-width: 1150px;
 }
 
 .cardX img {
