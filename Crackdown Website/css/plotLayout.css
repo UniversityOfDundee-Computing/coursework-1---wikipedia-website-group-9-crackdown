@@ -48,6 +48,23 @@ body, html {
     width: 80%;
 }
 
+.photoBackground{
+    margin: auto;
+    background-color: #a6e1fa;
+    border-radius: 20px;
+    width: 80%;
+}
+
+.paragraphBackground{
+    margin: auto;
+    background-color: #a6e1fa;
+    border-radius: 20px;
+}
+
+.Text{
+    color: #001c55;
+}
+
 .centered {
     position: absolute;
     top: 10%;
