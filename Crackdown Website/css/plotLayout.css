@@ -10,7 +10,7 @@ body, html {
 
 .hero {
     height: 650px;
-    background-image: url("crackdownPhotos/homeBanner.jpeg");
+    background-image: url("homeBanner.jpeg");
     background-position: 50% 15%;
 }
 
