@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;700&display=swap');
+/* google fonts link above to set all text to a more suitable theme */
+
+/* css to set the body of the html to a height of 100% */
 
 body, html {
     height: 100%;
 }
 
+/* css to set the fonts of the the html */
+
 * {
     font-family: 'Chakra Petch', sans-serif;
 }
+
+/* css to set the height, link to the background image and set the background position of the hero image at the top of the page */
 
 .hero {
     height: 650px;
     background-image: url("homeBanner.jpeg");
     background-position: 50% 15%;
 }
+
+/* css for the container for the hero banner which sets padding, width, margin and display */
 
 .heroContainer {
     padding-top: 150px;
@@ -21,11 +30,16 @@ body, html {
     display: block;
 }
 
+
+/* css for the hero container that contains the image */
+
 .heroContainer img {
     margin: auto;
     display: block;
     height: 270px;
 }
+
+/* css to set font sizes, text alignments, and position the text */
 
 .heroText {
     font-size: x-large;
@@ -37,9 +51,13 @@ body, html {
     color: white;
   }
 
+  /* css to make the logo in the nav bar small enough to fit beside the buttons */
+
   .logo {
     height: 40px;
 }
+
+/* css to set the background colour of the cards */
 
 .containerBackground{
     margin: auto;
@@ -48,6 +66,8 @@ body, html {
     width: 80%;
 }
 
+/* sets the background colour of the photo */
+
 .photoBackground{
     margin: auto;
     background-color: #a6e1fa;
@@ -55,15 +75,21 @@ body, html {
     width: 80%;
 }
 
+/* sets the background of the paragraph */
+
 .paragraphBackground{
     margin: auto;
     background-color: #a6e1fa;
     border-radius: 20px;
 }
 
+/* sets the colour of the text for the paragraph and caption of the image caption */
+
 .Text{
     color: #001c55;
 }
+
+/*  */
 
 .centered {
     position: absolute;
