@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="icon" href="./img/logo.ico">
     <link rel="stylesheet" href="css/plotLayout.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,6 +12,8 @@
   </head>
 
   <body>
+
+    <!-- NAVBAR -->
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container-fluid">
@@ -23,12 +26,12 @@
         <div class="collapse navbar-collapse" id="navbarColor01">
           <ul class="navbar-nav">
             <li class="nav-item mx-4">
-              <a class="nav-link active" href="#">HOME
+              <a class="nav-link active" href="index.html">HOME
                 <span class="visually-hidden">(current)</span>
               </a>
             </li>
             <li class="nav-item mx-4">
-              <a class="nav-link" href="#">GAMEPLAY</a>
+              <a class="nav-link" href="gameplay.html">GAMEPLAY</a>
             </li>
             <li class="nav-item mx-4">
               <a class="nav-link" href="#">PLOT</a>
@@ -42,6 +45,8 @@
           </ul>
         </div>
   </nav>
+
+  <!-- Hero image displayed below the navbar -->
     
   <div class="hero container-fluid full-viewport text-center">
     <div class="heroContainer">
@@ -50,31 +55,71 @@
 
     <main>
 
+      <!-- new container div tag containing rows and columns for content such as plot section headings, setting photos and a paragraph describing the plot of crackdown -->
+
         <div class="container py-4">
-            <div class="row">
-                
+            <div class="row">  
                 <div class="col">
 
-                  <h1 class="text-center">plot</h1>
+                  <!-- heading for the campaign -->
 
-                  <div class="col-12 col-md-12 mt-5">
-                    <p class="text-center">
-                        <img src="img/pacificCity.jpg" alt="">
-                        <div class="centered">Pacific City</div>
-                    </p>
+                  <h1 class="text-center">Campaign</h1>
+
+                  <!-- photoBackground div tag to set the colour behind the image in css -->
+
+                  <div class="photoBackground">
+
+                    <!-- container for the image -->
+
+                    <div class="container">
+
+                      <!-- div tag to allow the image to be responsive and set a margin at the top of the image -->
+
+                      <div class="col-12 col-md-12 mt-5">
+
+
+                        <!-- p tag containing the image used to center it -->
+
+                        <p class="text-center">
+                            <img class="img-fluid pt-4" src="img/pacificCity.jpg" alt="">
+                        </p>
+                      </div>
+
+                      <!-- p tag used to caption the image, which is centered and has padding as well as bold font -->
+
+                      <P class="Text text-center pb-3 font-weight-bold">pacific City</P>
+                    </div>
+                  </div>
+
+                  <!-- div tag created to alter the background of the main paragraph to a different colour -->
+
+                <div class="paragraphBackground">
+
+                  <!-- main paragraph text with padding on the bottom and top -->
+
+                  <div class="container pb-3 pt-3">
+
+                        <p class="Text font-weight-bold text-center col-12 col-md-12">Crackdown is based in the fictional metropolis of Pacific City, with three districts which are divided among eight total islands. The city is controlled by three criminal organizations. Under normal circumstances,a police organization called the Peacekeepers keep the city under control; their forces, however, were overwhelmed by the sudden rise in crime. The city, therefore, sought additional help from "the Agency". The player takes on the role of one of the Agency Agents, and is tasked with systematically bringing down all three organized gangs, while keeping both the populace and Peacekeepers safe. The Agent's actions are continuously monitored by the Agency, and its Director provides continuous reports to him of his progress.  Throughout the game, the player roams Pacific City, systematically eliminating the leaders of the three gangs. Upon defeating the gangs' Kingpins and generals, the Agent must put down a final riot by the remaining gang members in the area which after completion will cause that city to be almost crime free. Once all three gangs are fully exterminated, in the closing cutscene of the game, the Director reveals to the Agent that there was an ulterior motive for the Agency's actions: the Agency had secretly empowered the three gangs in the first place to instill fear in Pacific City's residents, thus creating a need for the Agency to control the city, and acceptance in the populace when they did take over. The Agency Director's comments suggest that the Agency was merely using Pacific City as a test and will replicate this plan in other cities across the globe to create a New World Order.</p>
+                  </div>
                 </div>
-
-                    <p class="text-center col-12 col-md-12 mt-5">Crackdown is based in the fictional metropolis of Pacific City, with three districts which are divided among eight total islands. The city is controlled by three criminal organizations. Under normal circumstances,a police organization called the Peacekeepers keep the city under control; their forces, however, were overwhelmed by the sudden rise in crime. The city, therefore, sought additional help from "the Agency". The player takes on the role of one of the Agency Agents, and is tasked with systematically bringing down all three organized gangs, while keeping both the populace and Peacekeepers safe. The Agent's actions are continuously monitored by the Agency, and its Director provides continuous reports to him of his progress.  Throughout the game, the player roams Pacific City, systematically eliminating the leaders of the three gangs. Upon defeating the gangs' Kingpins and generals, the Agent must put down a final riot by the remaining gang members in the area which after completion will cause that city to be almost crime free. Once all three gangs are fully exterminated, in the closing cutscene of the game, the Director reveals to the Agent that there was an ulterior motive for the Agency's actions: the Agency had secretly empowered the three gangs in the first place to instill fear in Pacific City's residents, thus creating a need for the Agency to control the city, and acceptance in the populace when they did take over. The Agency Director's comments suggest that the Agency was merely using Pacific City as a test and will replicate this plan in other cities across the globe to create a New World Order.</p>
-
-
                 </div>
             </div>
         </div>
 
+
+        <!-- div tag to change the background colour of the cards in css -->
+
         <div class="containerBackground">
+
+
+          <!-- div tag for a container that contains the first three cards on the website -->
+
             <div class="container">
               <div class="row py-4">
-                <div class="col-12 col-md-4">
+
+                <!-- div tag to set the widths of the cards on desktop layouts and mobile layouts, also sets a padding at the top of each card. This can be found above each individual card -->
+
+                <div class="col-12 col-md-4 pt-4">
                     <div class="card">
                     <img src="img/LosMuertos.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -83,7 +128,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 pt-4">
                     <div class="card">
                     <img src="img/theVolk.jpg.crdownload" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -92,7 +137,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 pt-4">
                     <div class="card">
                     <img src="img/shaiGen.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -107,9 +152,16 @@
           </div>
 
           <div class="containerBackground mt-5">
+
+
+            <!-- second container for the two cards underneath the initial three cards -->
+
             <div class="container">
               <div class="row py-4">
-                <div class="col-12 col-md-6">
+
+                <!-- div tag to set the widths of the cards on desktop layouts and mobile layouts, also sets a padding at the top of each card. -->
+
+                <div class="col-12 col-md-6 pt-4">
                     <div class="card">
                     <img src="img/screenshotOne.jpeg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -118,7 +170,7 @@
                       </div>
                   </div>
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 pt-4">
                     <div class="card">
                     <img src="img/theAgency.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -130,6 +182,8 @@
               </div>
             </div>
           </div>
+
+          <!-- footer to contain the information regarding the website authors and containing a logo for crackdown -->
           
   
           <footer class="footer mx-auto text-center col-12 col-md-12">
