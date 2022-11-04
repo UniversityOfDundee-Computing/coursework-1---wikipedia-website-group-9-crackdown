@@ -9,23 +9,24 @@ p {
     display: grid;
     grid-auto-flow: column;
     text-align: justify;
-    max-width: 1150px;
 }
 
 .cardX img {
-    height: 250px;
-    margin-right: 20px;
+    height: auto;
+    max-width: 100%;
+    padding-right: 20px;
 }
 
 .cardY img {
-    height: 250px;
-    margin-left: 20px;
+    height: auto;
+    max-width: 100%;
+    padding-left: 20px;
 }
 
 main {
     padding: 50px 0;
     margin: 0 auto;
-    width: 1150px;
+    max-width: 1150px;
 }
 
 * {
@@ -81,4 +82,9 @@ button:hover {
 
 footer img {
     height: 100px;
+}
+
+iframe {
+    height: 500px;
+    max-width: 100%;
 }
